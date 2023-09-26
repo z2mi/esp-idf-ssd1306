@@ -67,8 +67,11 @@ Usage:
 #define OLED_CMD_DEACTIVE_SCROLL        0x2E
 #define OLED_CMD_ACTIVE_SCROLL          0x2F
 #define OLED_CMD_VERTICAL               0xA3
-
+// For SSD1306
 #define I2CAddress 0x3C
+// For SSD1315
+//#define I2CAddress 0x78
+
 #define SPIAddress 0xFF
 
 typedef enum {
